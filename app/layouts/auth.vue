@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
   bodyAttrs: {
-    class: 'dark:bg-gray-950'
+    class: 'dark:bg-neutral-950'
   }
 })
 </script>
@@ -11,10 +11,10 @@ useHead({
     <div class="gradient" />
 
     <UButton
-      icon="i-heroicons-home"
+      icon="i-lucide-home"
       label="Home"
       to="/"
-      color="black"
+      color="neutral"
       class="absolute top-4"
     />
 
